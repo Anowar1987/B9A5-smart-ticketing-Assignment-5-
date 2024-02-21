@@ -160,74 +160,243 @@
             </div>
         </section>
         <!-- seat plan -->
-        <section>
-            <div>
-                <div class="ml-16" id="seat-plan">
-                    <p>Select your seat</p>
-                    <img src="images/Line 2.svg" alt="">
-                    <div class="flex justify-between">
-                        <div class="flex">
-                            <img src="images/seat-gray.png" alt="">
-                            <p>Available</p>
-                        </div>
-                        <div class="flex mr-16">
-                            <img src="images/seat-green.png" alt="">
-                            <p>Selected</p>
-                        </div>
-                    </div>
-                    <img src="images/Line 2.svg" alt="">
-                    <div>
-                        <img src="images/wheel.svg" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- seat -->
-            <div class="flex gap-16">
+        <section class="">
+         <div class="flex">
+            <div class="ml-16">
                 <div>
-                    <table>
-                        <tbody>
-                            <tr class="flex justify-between">
-                                <th class="">A</th>
-                                <td class="ml-10 h-[100%] w-[100%] rounded-lg bg-[#03071280]">A1</td>
-                                <td class="ml-16 h-[776] w-[252] rounded-lg bg-[#03071280]">A2</td>
-                            </tr>
-                            <tr class="flex justify-between mt-6">
-                                <th class="">B</th>
-                                <td class="ml-10 h-[100%] w-[100%] rounded-lg bg-[#03071280]">B1</td>
-                                <td class="ml-16 h-[56] w-[110] rounded-lg bg-[#03071280]">B2</td>
-                                
-                            </tr>
-                            
-                        </tbody>
-                    </table>
+                    <div id="seat-plan">
+                        <p class="text-2xl font-semibold">Select your seat</p>
+                        <img src="images/Line 2.svg" alt="">
+                        <div class="flex justify-between">
+                            <div class="flex">
+                                <img src="images/seat-gray.png" alt="">
+                                <p>Available</p>
+                            </div>
+                            <div class="flex mr-16">
+                                <img src="images/seat-green.png" alt="">
+                                <p>Selected</p>
+                            </div>
+                        </div>
+                        <img src="images/Line 2.svg" alt="">
+                        <div>
+                            <img src="images/wheel.svg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="mr-16">
-                    <table>
-                        <tbody>
-                            <tr class="flex justify-between">
-                                <td class="ml-16 h-[56] w-[110] rounded-lg bg-[#03071280]">A3</td>
-                                <td class="ml-16 h-[56] w-[110] rounded-lg bg-[#03071280]">A4</td>
-                            </tr>
-                            <tr class="flex justify-between mt-6">
-                                <td class="ml-16 h-[56] w-[110] rounded-lg bg-[#03071280]">C3</td>
-                                <td class="ml-16 h-[56] w-[110] rounded-lg bg-[#03071280]">D4</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <!-- seat -->
+                <div class="flex gap-16">
+                    <div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">A</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">A1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">A2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">A3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">A4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">B</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">B1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">B2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">B3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">B4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">C</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">C1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">C2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">C3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">C4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">D</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">D1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">D2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">D3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">D4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">E</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">E1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">E2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">E3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">E4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">F</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">F1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">F2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">F3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">F4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">G</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">G1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">G2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">G3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">G4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">H</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">H1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">H2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">H3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">H4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">I</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">I1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">I2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">I3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">I4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="flex justify-between">
+                                        <div>
+                                            <p class="text-center font-semibold text-2xl mb-10">J</p>
+                                            </div>
+                                            <div>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">J1</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">J2</button>
+                                            <button class="btn ml-20 mb-6 rounded-lg bg-[#03071280]">J3</button>
+                                            <button class="btn ml-10 mb-6 rounded-lg bg-[#03071280]">J4</button>
+                                            </div>
+                                    </div>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div>
-
-
-            <!--  -->
-            <div>
-                <p>Select Your Seat</p>
-            </div>
+               </div>
+               <div><img class="" src="images/Line 1 (1).png" alt=""></div>
+                <!-- Passenger part -->
+                <div>
+                    <p class="text-2xl font-semibold ml-8">Select Your Seat</p>
+                    <img src="images/Line 4.svg" alt="">
+                    <div class="flex justify-around ml-8">
+                        <p class="mr-0">Seat</p>
+                        <span class="bg-[#1DD100] rounded-lg ml-0">0</span>
+                        <p>Class</p>
+                        <p>Price</p>
+                    </div>
+                    <img src="images/Line 5.svg" alt="">
+                    <div class="flex justify-around ml-8">
+                        <p>B2</p>
+                        <p>Economy</p>
+                        <p>550</p>
+                    </div>
+                    <div class="flex justify-around ml-8">
+                        <p>B2</p>
+                        <p>Economy</p>
+                        <p>550</p>
+                    </div>
+                    <img src="images/Line 6.svg" alt="">
+                    <div class="flex justify-between ml-6">
+                        <p class="">Total Price</p>
+                        <p>1100</p>
+                    </div>
+                    <div class="flex justify-between ml-6">
+                        <input type="text" placeholder="Have any Couple" class="input input-bordered w-full max-w-xs" />
+                        <button class="btn bg-[#1DD100] rounded-lg text-white">Apply</button>
+                    </div>
+                    <div class="flex justify-between ml-6">
+                        <p>Grand Total</p>
+                        <p>1100</p>
+                    </div>
+                    <div class="ml-6">
+                        <p>Passenger Name*</p>
+                        <input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+                        <p>Phone Number*</p>
+                        <input type="number" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+                        <p>Email ID</p>
+                        <input type="email" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+                    </div>
+                    <button class="btn w-[430px] h-[65px] ml-6 mt-4 bg-[#1DD100]">Next</button>
+                   <div class="flex justify-between ml-6">
+                    <p>Terms and conditions</p>
+                    <p>Cancellation Policy</p>
+                   </div>
+                </div>
+         </div>
         </section>
 
-
+        <div class="rounded-full ..."></div>
 
     </main>
-
+    <footer class="mt-16">
+        <footer class="footer p-10 bg-neutral text-neutral-content">
+            <aside>
+              <h2 class="font-bold text-4xl text-white">P-Ticket</h2>
+              <p>P-Ticket is digital platform to make your<br>daily commuting better.</p>
+            </aside> 
+            <nav>
+             
+              <div class="grid grid-flow-col gap-4">
+               <p>Download our app</p>
+                <div>
+                    <img src="images/playstore.png" alt="">
+                    <p>GET IN ON</p>
+                    <h2>Google Play</h2>
+                </div>
+              </div>
+            </nav>
+          </footer>
+    </footer>
 </body>
 
 </html>
