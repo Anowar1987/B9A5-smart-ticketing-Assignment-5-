@@ -328,14 +328,14 @@
                 <div>
                     <p class="text-2xl font-semibold ml-8">Select Your Seat</p>
                     <img src="images/Line 4.svg" alt="">
-                    <div class="flex justify-around ml-8">
-                        <p class="mr-0">Seat</p>
+                    <div class="selected-sest flex justify-around ml-8">
+                        <p class=" seat mr-0">Seat</p>
                         <span class="bg-[#1DD100] rounded-lg ml-0">0</span>
-                        <p>Class</p>
-                        <p>Price</p>
+                        <p class="class">Class</p>
+                        <p class="price">Price</p>
                     </div>
                     <img src="images/Line 5.svg" alt="">
-                    <div class="flex justify-around ml-8">
+                    <div id="per-seat-price" class="flex justify-around ml-8">
                         <p>B2</p>
                         <p>Economy</p>
                         <p>550</p>
@@ -346,17 +346,19 @@
                         <p>550</p>
                     </div>
                     <img src="images/Line 6.svg" alt="">
+                    <div id="selected-ticket-price"></div>
                     <div class="flex justify-between ml-6">
                         <p class="mt-5">Total Price</p>
-                        <p>1100</p>
+                        <p>0</p>
                     </div>
                     <div class="flex justify-between ml-6 mt-5">
                         <input type="text" placeholder="Have any Couple" class="input input-bordered w-full max-w-xs" />
                         <button class="btn bg-[#1DD100] rounded-lg text-white">Apply</button>
                     </div>
+                    
                     <div class="flex justify-between ml-6 mt-5">
                         <p>Grand Total</p>
-                        <p>1100</p>
+                        <p>0</p>
                     </div>
                     <div class="ml-6">
                         <p class="mt-5">Passenger Name*</p>
@@ -417,6 +419,7 @@
             <button class="btn text-2xl font-semibold rounded-[32px] bg-[#27AE60] ml-60">Continue</button>
         </div>
     </div>
+    <script src="Script/script.js"></script>
 </body>
 
 </html>
